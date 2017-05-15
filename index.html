@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Media Center Sign In</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- SweetAlert CSS -->
+    <link rel="stylesheet" href="css/sweetalert.css">
+</head>
+<body>
+
+<div class="container container-table">
+    <div class="row vertical-center-row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="jumbotron">
+                <h1 class="text-center">Media Center Sign In</h1>
+                <form method="post" action="php/signin.php" id="signin" name="signin" autocomplete="off">
+                    <div class="form-group" id="form-group">
+                        <input class="form-control" type="number" id="studentid" name="studentid" placeholder="Student ID" autofocus>
+                        <span class="help-block"></span>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success btn-lg text-center" id="signinbtn">Sign In</button>
+                    </div>
+                </form>
+            </div>
+            <footer class="footer">&copy; Omar Rahman | <a href="https://omartech.me/" target="_blank">omartech.me</a></footer>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<!-- JQuery Validate -->
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+
+<!-- Signin Validate -->
+<script type="text/javascript" src="js/signin.validate.js"></script>
+
+<!-- SweetAlert -->
+<script type="text/javascript" src="js/sweetalert.min.js"></script>
+
+</body>
+</html>

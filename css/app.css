@@ -1,0 +1,27 @@
+/**
+ * Omar Rahman
+ * (c) omartech.me
+ **/
+
+html,
+body,
+.container-table {
+    height: 100%;
+}
+body {
+    background-color: #f8f8f8;
+}
+
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1px;
+}
